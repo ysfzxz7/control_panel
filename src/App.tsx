@@ -1,11 +1,17 @@
+import Aside from "./componants/Aside"
+import Nav from "./componants/Nav"
 
 
 function App() {
 
   return (
-    <>
-        <h1 className="hover:underline">This is the Entry point for the page</h1>
-    </>
+    <div className="bg-gray-400 flex">
+      <Aside />
+      <div className="w-11/12 ">
+      <Nav />
+      </div>
+
+    </div>
   )
 }
 
