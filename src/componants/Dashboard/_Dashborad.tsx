@@ -1,6 +1,13 @@
+import Welcome from "./Welcome";
+
 export default function _Dashboard() {
 
     return (
-        <h1>The main comp for the dash</h1>
+        <div className="">
+            <h1>DashBoard</h1>
+            <div className="grid p-2 lg:grid-cols-3">
+            <Welcome />
+            </div>
+        </div>
     )
 }
