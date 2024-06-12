@@ -4,3 +4,9 @@ export interface linkType  {
     link: string,
 
 }
+
+export interface routes {
+    name: string,
+    link: string,
+    element: React.ReactNode
+}
