@@ -4,7 +4,7 @@ import  avatar  from "../../assets/imgs/avatar.png";
 export default function Welcome() {
 
     return (
-        <div className="rounded-lg border bg-white">
+        <div className="rounded-lg border bg-white min-height">
             <div className="flex justify-between p-3 relative bg-gray-200 rounded-t-lg ">
                 <div>
                     <h1 className="font-bold text-lg">Welcome</h1>
@@ -30,7 +30,7 @@ export default function Welcome() {
                 </ul>
             </div>
             <div className="flex justify-end mt-2 p-2">
-            <button className="bg-fuchsia-500 px-3 py-1 rounded font-bold text-white text-sm ">Profile</button>
+            <button className="btn-primary ">Profile</button>
             </div>
         </div>
     )

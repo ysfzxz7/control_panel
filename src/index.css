@@ -5,5 +5,13 @@
 body {
     font-family: 'Geist Variable';
   }
+@layer components {
+  .btn-primary {
+    @apply bg-fuchsia-500 px-3 py-1 rounded font-bold text-white text-sm;
+  }
+  .min-height{
+    @apply min-h-64;
+  }
+}
 
 
