@@ -5,7 +5,7 @@ export default function Social_Media_Stats() {
 
     return (
         <div className="min-height p-2 bg-white rounded-lg">
-            <h1 className="mb-4">Social Media States</h1>
+            <h1 className="mb-4 font-bold">Social Media States</h1>
             <ul className="flex flex-col justify-between h-[80%]">
                 {
                     social_links.map((link) => (
