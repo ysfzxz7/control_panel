@@ -1,6 +1,6 @@
 import { CiHeart } from 'react-icons/ci'
 import avatar from '../../assets/imgs/avatar.png'
-import { LiaComment, LiaCommentAltSolid } from 'react-icons/lia'
+import { LiaCommentAltSolid } from 'react-icons/lia'
 export default function Latest_Post() {
 
     return (
