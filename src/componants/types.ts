@@ -20,3 +20,8 @@ export interface social_media {
     color?: string
     icone_color?: string
 }
+
+export interface searchWrodType {
+    name: string,
+    counter : number,
+}
