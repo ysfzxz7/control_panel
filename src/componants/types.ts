@@ -67,6 +67,12 @@ export interface tasksType {
 export interface projectsType {
     name: string,
     progress: number,
+}
 
-
+//the data type for the targets
+export interface targetTypes {
+    name: string,
+    icone: React.ReactNode,
+    progress: number,
+    amount: number,
 }

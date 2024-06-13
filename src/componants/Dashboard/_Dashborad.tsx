@@ -9,15 +9,17 @@ import Social_Media_Stats from "./Social_Media_Stats";
 import Tickets from "./Tickets_Statistics";
 import Top_Searced from "./Top_Search_Words";
 import Welcome from "./Welcome";
+import Yearly_target from "./Yearly_Targets";
 
 export default function _Dashboard() {
 
     return (
-        <div className="">
-            <h1>DashBoard</h1>
-            <div className="grid p-2 gap-2 lg:grid-cols-3 md:grid-cols-2">
+        <div className="p-2 ">
+            <h1 className="mb-2 font-semibold text-xl">DashBoard</h1>
+            <div className="grid gap-2 lg:grid-cols-3 md:grid-cols-2">
             <Welcome />
             <Quick_draft />
+            <Yearly_target />
             <Last_Projects />
             <Latest_Tasks />
             <Tickets />
