@@ -1,3 +1,4 @@
+import Last_Projects from "./Last_Porjects_Progress";
 import Latest_News from "./Lastest_News";
 import Latest_Tasks from "./Lastest_Tasks";
 import Latest_Post from "./Latest_Posts";
@@ -17,6 +18,7 @@ export default function _Dashboard() {
             <div className="grid p-2 gap-2 lg:grid-cols-3 md:grid-cols-2">
             <Welcome />
             <Quick_draft />
+            <Last_Projects />
             <Latest_Tasks />
             <Tickets />
             <Latest_News />

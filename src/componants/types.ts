@@ -62,3 +62,11 @@ export interface tasksType {
     desc: string,
     done: boolean
 }
+
+//the projects data type
+export interface projectsType {
+    name: string,
+    progress: number,
+
+
+}
