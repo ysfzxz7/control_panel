@@ -39,3 +39,9 @@ export interface newsType {
     time: number,
     img: string
 }
+
+export interface ticketsType {
+    total: number,
+    icone: React.ReactNode,
+    tag: string
+}
