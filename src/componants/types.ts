@@ -30,5 +30,12 @@ export interface uploadType {
     name: string,
     author: string,
     space: number,
+    img: string,
+}
+
+export interface newsType {
+    title: string,
+    desc: string,
+    time: number,
     img: string
 }

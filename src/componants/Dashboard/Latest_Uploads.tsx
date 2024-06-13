@@ -11,9 +11,9 @@ export default function Latest_upLoad() {
             <h1>Latest Uploads</h1>
             <div>
                 <ul className="space-y-2"> 
-                    {uploads.map((file) => (
+                    {uploads?.map((file) => (
                         <li className="flex items-center"> 
-                            <img className="w-6" src={file.img} alt={file.img} srcset="" />
+                            <img className="w-6" src={file.img} alt={file.img} />
                             <div className="flex-1 mx-2">
                                 <h1 className="text-sm">{file.name}</h1>
                                 <h1 className="text-xs text-gray-400">{file.author}</h1>
@@ -53,11 +53,10 @@ const uploads: uploadType[] = [
         space: 8.9,
         img: psd
     },
-    ,
     {
         name: 'my-file.zip',
         author: 'Majid',
         space: 11.2,
         img: zip
-    },
+    }
 ]
