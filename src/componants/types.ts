@@ -25,3 +25,10 @@ export interface searchWrodType {
     name: string,
     counter : number,
 }
+
+export interface uploadType {
+    name: string,
+    author: string,
+    space: number,
+    img: string
+}
