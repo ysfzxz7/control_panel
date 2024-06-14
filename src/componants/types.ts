@@ -86,3 +86,15 @@ export interface tableTypes {
         team: string,
         status: string
 }
+
+// the friends data types
+
+export interface friendsType {
+        name: string,
+        bio: string,
+        friends: number,
+        projects: number,
+        articls: number,
+        joined: string,
+        vip: boolean,
+}
