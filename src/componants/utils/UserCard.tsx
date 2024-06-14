@@ -28,21 +28,21 @@ export default function UserCard({data}:{data: friendsType}){
                 <div className={`absolute right-0 text-2xl text-yellow-500/50 rotate-12 bottom-[30%] ${vip ? 'visible' : 'hidden'} `}>VIP</div>
                 <li className="flex gap-3 items-center">
                     <FaRegSmile color="gray" />
-                    <h1 className="text-sm font-semibold">{friends} <span className="font-medium">Friends</span></h1>
+                    <h1 className="text-sm ">{friends} <span className="font-medium">Friends</span></h1>
                 </li>
                 <li className="flex gap-3 items-center">
                     <FaScissors  color="gray"/>
-                    <h1 className="text-sm font-semibold">{projects} <span className="font-medium">Projects</span></h1>
+                    <h1 className="text-sm ">{projects} <span className="font-medium">Projects</span></h1>
                 </li>
                 <li className="flex gap-3 items-center">
                     <FaNewspaper color="gray" />
-                    <h1 className="text-sm font-semibold"> {articls} <span className="font-medium">Articles</span></h1>
+                    <h1 className="text-sm "> {articls} <span className="font-medium">Articles</span></h1>
                 </li>
             </ul>
             <div className="flex items-center mt-3">
-                <h1 className="text-xs line-clamp-1 font-bold flex-1">Joined {joined}</h1>
-                <button className="text-sm font-normal hover:bg-blue-700 transition-all duration-300 mr-2 bg-blue-500 text-white px-2 py-1 rounded-md">Profile</button>
-                <button className="text-sm font-normal hover:bg-red-700 transition-all duration-300 bg-red-500 text-white px-2 py-1 rounded-md">Remove</button>
+                <h1 className="text-xs line-clamp-1 flex-1">Joined {joined}</h1>
+                <button className="text-sm  hover:bg-blue-700 transition-all duration-300 mr-2 bg-blue-500 text-white px-2 py-1 rounded-md">Profile</button>
+                <button className="text-sm  hover:bg-red-700 transition-all duration-300 bg-red-500 text-white px-2 py-1 rounded-md">Remove</button>
             </div>
         </div>
     )
