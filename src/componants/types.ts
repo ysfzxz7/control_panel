@@ -76,3 +76,13 @@ export interface targetTypes {
     progress: number,
     amount: number,
 }
+
+//the projects type: 
+export interface tableTypes {
+        name: string, 
+        finish_date: string,
+        client: string,
+        price: number,
+        team: string,
+        status: string
+}

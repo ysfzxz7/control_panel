@@ -3,6 +3,7 @@ import Latest_News from "./Lastest_News";
 import Latest_Tasks from "./Lastest_Tasks";
 import Latest_Post from "./Latest_Posts";
 import Latest_upLoad from "./Latest_Uploads";
+import Projects from "./Projects";
 import Quick_draft from "./Quick_Draft";
 import Reminders from "./Reaminders";
 import Social_Media_Stats from "./Social_Media_Stats";
@@ -30,6 +31,7 @@ export default function _Dashboard() {
             <Social_Media_Stats />
             <Latest_Post />
             </div>
+            <Projects />
         </div>
     )
 }
