@@ -108,6 +108,8 @@ export interface coursesType {
     price: number,
 }
 
+
+// the plans type
 export interface plansType {
     title: string,
     price: string,
@@ -120,4 +122,15 @@ export interface plansType {
     certificate: boolean,
     gb_Hosting: boolean, 
     access_badge_System: boolean, 
+}
+
+
+//the file types
+
+export interface filesType {
+    name: string,
+    publisher: string,
+    date: string,
+    size: string,
+    type: string,
 }
