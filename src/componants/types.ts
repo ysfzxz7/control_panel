@@ -88,7 +88,6 @@ export interface tableTypes {
 }
 
 // the friends data types
-
 export interface friendsType {
         name: string,
         bio: string,
@@ -97,4 +96,14 @@ export interface friendsType {
         articls: number,
         joined: string,
         vip: boolean,
+}
+
+// the courses type
+export interface coursesType {
+    title: string,
+    description: string,
+    avatar: string,
+    background: string,
+    viewrs: number,
+    price: number,
 }
