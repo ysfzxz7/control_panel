@@ -102,8 +102,22 @@ export interface friendsType {
 export interface coursesType {
     title: string,
     description: string,
-    avatar: string,
-    background: string,
+    avatar?: string,
+    background?: string,
     viewrs: number,
     price: number,
+}
+
+export interface plansType {
+    title: string,
+    price: string,
+    access_text: boolean, 
+    access_vedios: boolean, 
+    access_LeaderBoard: boolean, 
+    Ads: boolean, 
+    access_Assignment: boolean, 
+    daily_Prizes: boolean,
+    certificate: boolean,
+    gb_Hosting: boolean, 
+    access_badge_System: boolean, 
 }
