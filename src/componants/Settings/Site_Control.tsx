@@ -10,7 +10,9 @@ export default function Site_Control() {
                     <p className="text-xs">Open/Close Website and type the reason</p>
                 </div>
             </div>
-            <textarea className="border w-full h-[55%] resize-none text-xs p-2 text-gray-800"  name="Message" id="">Close message content</textarea>
+            <div className="h-full">
+            <textarea className="border w-full  resize-none text-xs p-2 text-gray-800"  name="Message" id="">Close message content</textarea>
+            </div>
         </div>
     )
 }

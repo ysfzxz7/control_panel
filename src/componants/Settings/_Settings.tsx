@@ -9,7 +9,7 @@ export default function _Settings(){
 
     return (
         <div className="p-2">
-            <h1>Settings</h1>
+            <h1 className="font-semibold mb-2">Settings</h1>
             <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
                 <Site_Control />
                 <General_info />
