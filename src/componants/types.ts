@@ -134,3 +134,20 @@ export interface filesType {
     size: string,
     type: string,
 }
+
+// the skills data type
+
+export interface skillsType {
+    string[],
+ 
+}
+
+//the data type of the activities
+
+export interface activitiesType {
+    logo: string,
+    title: string,
+    description: string,
+    time: string,
+    date: string
+}

@@ -1,6 +1,13 @@
+import Skills from "./Skills";
+
 export default function _Profile() {
 
     return (
-        <h1>this is the profile page</h1>
+        <div>
+            <h1>Profile</h1>
+            <div>
+                <Skills />
+            </div>
+        </div>
     )
 }
