@@ -138,7 +138,6 @@ export interface filesType {
 // the skills data type
 
 export interface skillsType {
-    string[],
  
 }
 
