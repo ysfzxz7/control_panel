@@ -1,8 +1,13 @@
+import Card from "./Card";
+
 export default function _Project() {
 
     return (
-        <h1>
-            this is the p^roject page
-        </h1>
+        <div className="p-2">
+            <h1>Projects</h1>
+            <div className="">
+                <Card />
+            </div>
+        </div>
     )
 }

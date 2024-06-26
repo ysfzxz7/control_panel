@@ -150,3 +150,15 @@ export interface activitiesType {
     time: string,
     date: string
 }
+
+
+//the projects data type
+export interface projectsTYpe {
+    title: string,
+    desc: string,
+    date: string,
+    praticapant: string[],
+    tags: string[],
+    prog: string,
+    amount: number
+}
